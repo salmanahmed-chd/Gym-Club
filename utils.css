@@ -1,0 +1,191 @@
+.min-h-screen {
+    height: 100vh;
+}
+
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.image {
+    margin: 2%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+
+.gym-description {
+    margin: 3%;
+}
+
+.gym-description h2 {
+    margin: 3%;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: xx-large;
+}
+
+
+.gym-description p {
+    text-align: center;
+    font-family: 'oswald', serif;
+    font-size: larger;
+}
+
+
+
+.services {
+    margin: 2%;
+
+}
+
+.services h1 {
+    margin: 2%;
+    font-family: 'Acme', sans-serif;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.service {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service h2 {
+    margin-top: 0%;
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+}
+
+.services p {
+    font-family: 'Oswald', sans-serif;
+}
+
+.service img {
+    margin: 2%;
+}
+
+.image-serv {
+    margin: 4%;
+}
+
+.image-serv img {
+    width: 80%;
+    border-radius: 8px;
+}
+
+.about-us {
+    margin: 2%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.about-us h1 {
+    margin: 2%;
+    font-family: 'Acme', sans-serif;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.our-team {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.our-team h2, h3{
+    font-family: 'Acme', sans-serif;
+    font-size: x-large;
+    margin: 1%;
+}
+
+.trainer {
+    margin: 3%;
+}
+
+.trainer img {
+    width: 80%;
+    border-radius: 8px;
+}
+
+body {
+    font-family: 'Acme', sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Acme', sans-serif;
+}
+
+form {
+    max-width: 500px;
+    margin: 2% auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    font-family: 'Oswald', sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
